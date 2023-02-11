@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bookmarker App</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="app">
+    <div class="container">
+      <div class="app-content">
+        <div class="app-head">
+          <h1>Bookmarker</h1>
+        </div>
+        <div class="app-body">
+          <h2>Bookmark your favorite sites</h2>
+          <form>
+            <div>
+              <label for="site-name">Site Name</label>
+              <input id="site-name" type="text" placeholder="Bookmark Name">
+            </div>
+            <div>
+              <label for="site-url">Site URL</label>
+              <input id="site-url" type="text" placeholder="Website URL">
+              <p class="hide" id="alert">Please Enter a valid Email</p>
+            </div>
+            <input id="submit-btn" type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="app-footer" id="app-footer">
+        </div>
+        <div class="copyright">
+          <p>© 2023 Bookmarker Inc.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
